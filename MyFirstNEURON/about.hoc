@@ -1,0 +1,12 @@
+xpanel("About MyFirstNEURON")
+xlabel("MyFirstNEURON is a NEURON demo by Arthur Houweling and Terry Sejnowski.")
+xlabel("Perform experiments from the book 'Electrophysiology of the Neuron' by John")
+xlabel("Huguenard & David McCormick, or design your own one or two cell simulation.") 
+xlabel("For more information see http://tesla.salk.edu/~arthur/MyFirstNEURON.html")
+xlabel("")
+xlabel("                       Salk Institute, Computational Neurobiology Lab")
+xlabel("                       10010 North Torrey Pines Rd., La Jolla CA 92037")
+xlabel("                       email: arthur@salk.edu")
+xlabel("") 
+xpanel()
+

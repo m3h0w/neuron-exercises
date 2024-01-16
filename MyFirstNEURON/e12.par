@@ -1,0 +1,33 @@
+stim[1].del = 3
+stim[1].dur = 3
+stim[1].amp = 1
+
+v_init = -55
+tstop = 30
+
+g[3].addvar("soma.cai(.5)", 2, 0)
+g[3].size(0,30,0,0.04)
+
+g[1].addvar("soma.ik_iC(.5)", 2, 0)
+g[1].addvar("soma.ik_HH(.5)", 3, 0)
+g[1].size(0,30,-0.1,0.2)
+
+g[2].addvar("soma.ica_iL(.5)", 5, 0)
+g[2].size(0,30,-0.1,0.2)
+
+soma.gnabar_HH = 0.0517
+soma.gkbar_HH = 0.00345
+soma.gkbar_iC = 0.00345
+soma.pcabar_iL = 0.000276
+soma.pna_leak = 4.31e-08
+soma.pk_leak = 4.14e-07
+soma.nai = 31
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+cai0_ca_ion = 5e-05
+cao0_ca_ion = 2
+
+g[0].addvar("v(.5)", 1, 0)
+g[0].size(0,30,-100,20)
+

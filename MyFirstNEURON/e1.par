@@ -1,0 +1,17 @@
+g[0].addexpr("v(.5)", 2, 0)
+g[0].size(0,20,-100,50)
+
+v_init = -65
+tstop = 20
+
+soma.pna_leak = 2.07e-07
+soma.pk_leak = 3.45e-06
+soma.nai = 31
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+cai0_ca_ion= 5e-05
+cao0_ca_ion= 2
+soma.cli = 7
+soma.clo = 120
+soma.mgo = 1

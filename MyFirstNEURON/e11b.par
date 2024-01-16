@@ -1,0 +1,20 @@
+
+stim[2].dur[0] = 10
+stim[2].dur[1] = 100
+stim[2].amp[0] = -100
+
+g[0].addvar("v(.5)", 1, 2)
+g[0].size(0,100,-100,20)
+
+g[1].addvar("soma.ik_iA(.5)", 2, 0)
+g[1].size(0,100,0,0.4)
+
+soma.gkbar_iA = 0.00345
+soma.nai = 30
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+
+celsius = 23.5
+v_init = -100
+tstop = 100

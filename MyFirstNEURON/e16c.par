@@ -1,0 +1,40 @@
+g[2].addvar("ampasyn.g", 2, 0)
+g[2].addvar("nmdasyn.g", 3, 0)
+g[2].size(0,30,0,0.1)
+
+g[3].addvar("gabaAsyn.g", 2, 0)
+g[3].addvar("gabaBsyn.g", 3, 0)
+g[3].size(0,30,0,0.1)
+
+g[1].addexpr("ampasyn.i+gabaAsyn.i+gabaBsyn.i+nmdasyn.i", 5, 0)
+g[1].size(0,30,-1,2)
+
+g[0].addvar("v(.5)", 1, 2)
+g[0].size(0,30,-100,20)
+
+stim[2].dur[0] = 2
+stim[2].dur[1] = 28
+stim[2].dur[2] = 0
+stim[2].amp[0] = -100
+stim[2].amp[1] = -20
+stim[2].amp[2] = 0
+
+gmax_EPSP = 0.1
+onset_EPSP = 1
+ampasyn.w = 0
+nmdasyn.w = 1
+gmax_IPSP = 0
+onset_IPSP = 25
+gabaAsyn.w = 1
+gabaBsyn.w = 0.05
+
+soma.nai = 30
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+soma.cli = 8
+soma.clo = 140
+soma.mgo = 1
+
+v_init = -55
+tstop = 30

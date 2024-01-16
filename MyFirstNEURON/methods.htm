@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://www.cnl.salk.edu/~arthur/methods.html -->
+<HTML><HEAD><TITLE>MyFirstNEURON methods</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META content="Arthur Houweling" name=Author></HEAD>
+<BODY text=#000000 vLink=#000099 aLink=#ff0000 link=#0000ee bgColor=#ffffff>The
+model neuron consists of a single compartment with a membrane surface area of
+29000 µm<SUP>2</SUP><FONT color=#000000> and membrane capacitance (cm) of 1
+uF/cm<SUP>2</SUP></FONT><FONT size=-1>. </FONT>The Goldman-Hodgkin-Katz constant
+field equation is used in the computation of the leak, <I>L-</I> and <I>T-
+c</I>urrents. All other currents are computed using Ohm's law. The kinetics of
+most currents are scaled by temperature by means of Q<SUB>10 </SUB>values. The
+standard integration procedure uses a fixed time step (dt) of 50&nbsp; µs, the
+variable time step method works as well. Descriptions of user-defined currents
+and membrane mechanisms are defined in so called mod files. You can create your
+own mod file with the <A
+href="http://spine.med.yale.edu/neuron/papers/nc99/nmodl.htm">NMODL description
+language</A>. Note that after changing or creating a mod file you need to
+recompile the mod files. The following are the membrane mechanisms included in
+the Experiments section of MyFirstNEURON: <BR>&nbsp;
+<TABLE cellSpacing=0 cellPadding=2 bgColor=#ffffff border=3 NOSAVE>
+  <TBODY>
+  <TR>
+    <TD align=middle><FONT color=#dc143c><FONT
+    size=-1>CURRENTS</FONT></FONT></TD>
+    <TD align=right>
+      <CENTER><FONT color=#dc143c><FONT size=-1>MOD
+    FILE</FONT></FONT></CENTER></TD>
+    <TD align=middle><FONT color=#dc143c><FONT
+    size=-1>REFERENCE</FONT></FONT></TD>
+    <TD align=middle><FONT color=#dc143c><FONT size=-1>OBTAINED
+      FROM</FONT></FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B>leak&nbsp;</B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="leak.mod">leak.mod</A></CENTER></TD>
+    <TD NOSAVE><FONT size=-1>Huguenard, McCormick (1994)&nbsp;</FONT></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B>transient Na<SUP>+</SUP></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="fhh2.mod">hh2.mod</A></CENTER></TD>
+    <TD><FONT size=-1>McCormick, Huguenard (1992)&nbsp;</FONT></TD>
+    <TD NOSAVE><FONT size=-1>cortical pyramidal cells</FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B>delayed rectifier</B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="hh2.mod">hh2.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Huguenard, McCormick (1992)&nbsp;</FONT></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B><I>A</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="ia.mod">ia.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Huguenard, McCormick (1992)&nbsp;</FONT></TD>
+    <TD><FONT size=-1>thalamic relay neurons</FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B><I>AHP</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="iahp.mod">iahp.mod</A></CENTER></TD>
+    <TD><FONT size=-1>McCormick, Wang, Huguenard (1993)&nbsp;</FONT></TD>
+    <TD><FONT size=-1>bullfrog symp. ganglion cells</FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B><I>C</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="ic.mod">ic.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Yamada, Koch, Adams (1989)&nbsp;</FONT></TD>
+    <TD><FONT size=-1>bullfrog symp. ganglion cells</FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B><I>L</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="il.mod">il.mod</A></CENTER></TD>
+    <TD><FONT size=-1>McCormick, Huguenard (1992)&nbsp;</FONT></TD>
+    <TD><FONT size=-1>hippocampal pyramidal cells</FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B><I>M</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="im.mod">im.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Yamada, Koch, Adams (1989)&nbsp;</FONT></TD>
+    <TD><FONT size=-1>bullfrog symp. ganglion cells</FONT></TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B><I>T</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="it.mod">it.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Huguenard, McCormick (1992)</FONT></TD>
+    <TD><FONT size=-1>thalamic relay neurons</FONT></TD></TR>
+  <TR>
+    <TD>
+      <CENTER><FONT color=#cc0000>OTHER</FONT></CENTER></TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR NOSAVE>
+    <TD align=middle><B>Ca<SUP>2+</SUP> diffusion</B></TD>
+    <TD align=left NOSAVE>
+      <CENTER><A
+      href="cadyn.mod">cadyn.mod</A></CENTER></TD>
+    <TD><FONT size=-1>McCormick, Huguenard (1992)</FONT></TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE>
+<P><FONT color=#000000><FONT size=-1>The synaptic currents used in the tutorial
+are described in <A
+href="ampasyn.mod">ampa</A>, <A
+href="nmdasyn.mod">nmda</A>, <A
+href="gabaAsyn.mod">gabaA</A>
+and <A
+href="gabaBsyn.mod">gabaB</A>
+mod files. These mod files are not in the proper format for network
+simulations.</FONT></FONT>
+<P><FONT color=#000000>Additional membrane mechanisms, including network-ready
+synapses with optional short-term plasticity, are available in the Create<I>
+</I>section:</FONT> <BR>&nbsp;
+<TABLE cellSpacing=0 cellPadding=2 border=3>
+  <TBODY>
+  <TR>
+    <TD>
+      <CENTER><B>persistent Na<SUP>+</SUP></B></CENTER></TD>
+    <TD>
+      <CENTER><A
+      href="inap.mod">inap.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Golomb, Amitai (1997)</FONT></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD><B>action potential</B></TD>
+    <TD>
+      <CENTER><A
+      href="hh3.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Traub, Miles (1991)</FONT></TD>
+    <TD><FONT size=-1>hippocampal pyramidal cells</FONT></TD></TR>
+  <TR>
+    <TD>
+      <CENTER><B>slow K<SUP>+</SUP></B></CENTER></TD>
+    <TD>
+      <CENTER><A
+      href="iks.mod</A></CENTER></TD>
+    <TD><FONT size=-1>Golomb, Amitai (1997)</FONT></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD align=middle><B><I>H</I><FONT size=-1>-</FONT></B></TD>
+    <TD align=right>
+      <CENTER><A
+      href="ih.mod">ih.
+      mod</A></CENTER></TD>
+    <TD><FONT size=-1>Spain, Schwindt, Crill (1987)&nbsp;</FONT></TD>
+    <TD><FONT size=-1>cat sensorimotor cortex</FONT></TD></TR>
+  <TR>
+    <TD align=middle><B>AMPA</B></TD>
+    <TD align=right>
+      <CENTER><A
+      href="ampa.mod</A></CENTER></TD>
+    <TD><FONT size=-1>&nbsp;</FONT></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD align=middle><B>GABA</B><TT><SUB><FONT size=-1>A</FONT></SUB></TT></TD>
+    <TD align=right>
+      <CENTER><A
+      href="gabaA.mod</A></CENTER></TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE>
+<P>Calcium dynamics is modeled by a simple exponential decay in a thin shell
+underneath the membrane. Experimental data from thalamocortical cells indicate
+that action potentials and high-threshold calcium currents activate substantial
+calcium-activated potassium currents whereas low-threshold calcium currents do
+not. Therefore the <I>T</I>-current model does not update the internal calcium
+concentration. </P></BODY></HTML>

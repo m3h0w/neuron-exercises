@@ -1,0 +1,19 @@
+soma.gnabar_HH = 0.069
+soma.gkbar_HH = 0.0069
+soma.pna_leak = 2.07e-07
+soma.pk_leak = 3.45e-06
+soma.nai = 31
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+
+g[0].addvar("v(.5)", 2, 0)
+g[0].size(0,80,-100,40)
+
+v_init = -65
+tstop = 80
+
+stim[1].del = 10
+stim[1].dur = 50
+stim[1].amp = 1.5
+

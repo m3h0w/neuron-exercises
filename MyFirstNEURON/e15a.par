@@ -1,0 +1,22 @@
+stim[1].del = 50
+stim[1].dur = 150
+stim[1].amp = 0.7
+
+v_init = -75
+tstop = 300
+
+g[1].addvar("soma.ik_iM(.5)", 2, 0)
+g[1].size(0,300,-0.001,0.004)
+
+g[0].addvar("v(.5)", 1, 0)
+g[0].size(0,300,-80,20)
+
+soma.pna_leak = 1.7241e-08
+soma.pk_leak = 4.1379e-07
+soma.gkbar_iM = 0.00031035
+soma.gnabar_HH = 0.051724
+soma.gkbar_HH = 0.0068966
+soma.nai = 31
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1

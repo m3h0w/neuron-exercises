@@ -1,0 +1,23 @@
+celsius = 23.5
+v_init = -65
+tstop = 20
+
+g[1].addexpr("soma.ina(.5)+soma.ik(.5)", 3, 0)
+g[1].size(8,20,-1,1)
+
+soma.gnabar_HH = 0.0345
+soma.gkbar_HH = 0.0069
+soma.nai = 30
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+
+stim[2].dur[0] = 10
+stim[2].dur[1] = 10
+stim[2].amp[0] = -100
+stim[2].amp[1] = 0
+stim[2].amp[2] = -100
+
+g[0].addvar("v(.5)", 1, 2)
+g[0].size(0,20,-100,60)
+

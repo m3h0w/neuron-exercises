@@ -1,0 +1,27 @@
+g[3].addvar("soma.m_HH(.5)", 2, 0)
+g[3].addvar("soma.h_HH(.5)", 5, 0)
+g[3].addvar("soma.n_HH(.5)", 3, 0)
+g[3].size(0,20,0,1)
+
+g[1].addvar("soma.ik_HH(.5)", 3, 0)
+g[1].addvar("soma.ina_HH(.5)", 2, 0)
+g[1].size(0,20,-0.2,0.2)
+
+g[2].addexpr("soma.gnabar_HH(.5)*soma.m_HH(.5)^3*soma.h_HH(.5)", 2, 0)
+g[2].addexpr("soma.gkbar_HH(.5)*soma.n_HH(.5)^4", 3, 0)
+g[2].size(0,20,0,0.006)
+
+g[0].addvar("v(.5)", 1, 0)
+g[0].size(0,20,-80,20)
+
+soma.gnabar_HH = 0.069
+soma.gkbar_HH = 0.0069
+soma.pna_leak = 4.14e-07
+soma.pk_leak = 3.45e-06
+soma.nai = 31
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+
+v_init = -50
+tstop = 15

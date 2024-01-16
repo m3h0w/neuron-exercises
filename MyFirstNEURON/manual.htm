@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.cnl.salk.edu/~arthur/manual.html -->
+<HTML><HEAD><TITLE>MyFirstNEURON manual</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META content="Arthur Howueling" name=Author></HEAD>
+<BODY><B><I><FONT color=#0000ff>The Main Control</FONT></I></B>
+<P><IMG height=286 src="MyFirstNEURONmanual_files/maincontrol.gif" width=233
+alt="download model zip and extract to see images"
+align=right>Experiments from the book can be selected through the
+<I>Experiments</I> menu. The number of the experiment in the book is given in
+parentheses. To create your own one or two cell system click on <I>Create Your
+Own</I>. Graphs of the voltage or calcium dependency of the asymptotic gate
+values and time constants can be selected through the <I>Plot Currents</I> menu.
+The <I>Session </I>menu has options to save and restore parameters and graphs.
+The <I>Other</I> menu a.o. allows advanced users to pop up the NEURON main panel
+if desired. The <FONT size=-1>Init &amp; Run</FONT> button initializes and
+starts a simulation, the <FONT size=-1>Stop after</FONT> button determines the
+duration (in <FONT size=-1>ms</FONT>). <BR>&nbsp;
+<P><B><I><FONT color=#0000ff>Parameters in the demo</FONT></I></B>
+<P>The user has control over a wide range of parameters through the parameter
+panel. To discriminate between properties of different ionic channels, NEURON
+suffixes all parameters and variables with _ and the current name. For example,
+in the <I>Experiments </I>section of <I>MyFirstNEURON</I> you will encounter
+current names such as <FONT size=-1>leak, HH, iA, iAHP, iC, iL, iM, iT</FONT>.
+On the other hand, properties of synaptic currents are accessed as object
+variables, i.e. the parameters and variables are prefixed, with for example
+<FONT size=-1>ampasyn, nmdasyn, gabaA, gabaB</FONT>. When modifying values in
+the paramater panel, a red check will appear, the old value can be restored by
+clicking on the red check.
+<P><IMG height=722 src="MyFirstNEURONmanual_files/parpanel.gif" width=466
+align=right>Maximum permeabilities are denoted as <FONT
+size=-1>p<I>ionname</I>bar</FONT> (or <FONT size=-1>p<I>ionname</I></FONT> for
+the leak currents) and maximum conductances as <FONT
+size=-1>g<I>ionname</I>bar</FONT>. Note that the units for the conductances,
+permeabilities, and ionic currents are measured per unit membrane area, whereas
+in the book these units are taken per total membrane area (29,000 um<SUP>2
+</SUP>).
+<P>The ionic concentrations that can be manipulated are the internal and
+external concentrations of sodium (<FONT size=-1>nai/nao</FONT>), potassium
+(<FONT size=-1>ki/ko</FONT>), calcium (<FONT size=-1>cai/cao</FONT>), chloride
+(<FONT size=-1>cli/clo</FONT>), and the external concentration of magnesium
+(<FONT size=-1>mgo</FONT>).
+<P>The synaptic properties that can be modified in the <I>Experiments</I>
+section include the onset and maximum conductance (in <FONT size=-1>nS</FONT>)
+of the postsynaptic current, and a weight value that scales the maximum
+conductance for the four individual synaptic currents.
+<P>Base current is a constant current injection during the entire experiment.
+Negative base currents will hyperpolarize the cell. Another current clamp
+electrode can be specified to inject for a certain <FONT size=-1>duration
+</FONT>a constant current after an initial <FONT size=-1>delay</FONT>. A voltage
+clamp pair of electrodes can be specified to clamp the soma at three different
+voltages <FONT size=-1>amp0</FONT>,<FONT size=-1> amp1</FONT>,<FONT size=-1>
+amp2</FONT> for durations of <FONT size=-1>dur0</FONT>, <FONT
+size=-1>dur1</FONT>, <FONT size=-1>dur2</FONT>, respectively. The <FONT
+size=-1>Run Series</FONT> button will run a voltage clamp series from the
+minimal to the maximal voltage value as displayed on the axis of the voltage
+plot. To prevent the plots of the individual steps to be erased, select the
+<I>keep lines</I> option with the right mouse button in the appropriate graphs.
+<BR>&nbsp;
+<P><B><I><FONT color=#0000ff>Graphs</FONT></I></B>
+<P>The size of the axes can be changed with the <I>set view</I> option under the
+<I>view...</I> menu that pops up by clicking the right mouse button in any
+graph. To change the color and/or thickness of any line choose
+<I>colorbrush</I>, select your favorite color, and click with the cursor on the
+lines or labels you want to change. To read off the exact values of a plot
+select <I>crosshair</I> and click closely on your plotted line. To plot
+additional variables take the <I>plot what? </I>option and a selector will pop
+up. If you want to plot the state of an ionic channel, a concentration or
+current, browse down and double click on <FONT size=-1>soma</FONT>. Now, a
+second list will appear with all the available variables to plot. For a synaptic
+variable, select one of the synapse objects in the first list.
+<P><B><I><FONT color=#0000ff>Speed &amp; accuracy of simulations and
+plots</FONT></I></B>
+<P>Advanced users may want to change the accuracy/speed of the simulation. To do
+this, change the integration time step (default value 0.05 <FONT
+size=-1>ms</FONT>) through the interpretor by typing <FONT size=-1>dt =
+</FONT><TT><FONT size=+1>desired value</FONT></TT>. Increasing the integration
+time step will speed up your simulation, however, significant errors may be
+introduced in your calculations. Another way to increase the speed of your
+simulation is to decrease the time NEURON spends on plotting curves. This can be
+done by reducing the number of points plotted per time unit in the graphs
+(default 10 <FONT size=-1>points/ms</FONT>). To do this, go to the interpretor
+and type <FONT size=-1>steps_per_ms =</FONT> <TT><FONT size=+1>desired
+value</FONT></TT>. <BR>&nbsp;
+<P><B><I><FONT color=#0000ff>Asymptotic gate values and time
+constants</FONT></I></B>
+<P><IMG height=586 src="MyFirstNEURONmanual_files/asympvals.gif" width=324
+align=right>
+<P><FONT color=#000000>The asymptotic gate values reflect what fraction of
+channels will be open if the cell had been clamped at a certain voltage value
+for a sufficiently long time. For example, in the accompanying upper plot we can
+see in red the proportion of open activation gates of the sodium channel
+responsible for spike generation, given for voltage clamp values between -100
+and 50 mV. Identically, the blue line displays the fraction of open inactivation
+gates. In the lower plot, we can see the corresponding time constants for
+opening and closing of the gates. The axes can be rescaled the same way as
+described above. For some currents, the fraction of open gates depends on the
+internal calcium concentration, and a calcium plot can be selected under
+<I>Abscissa. </I>In this case, the <FONT size=-1>Init V</FONT> button displays
+the voltage at which the soma is clamped and<FONT size=-1>
+[Ca<SUP>2+</SUP>]<SUB>i </SUB></FONT>is the varying variable (default from 0-1
+mM). By changing the temperature of the experiment time constants may
+change.</FONT> <BR>&nbsp;
+<P><B><I><FONT color=#0000ff>Saving and retrieving parameter values and
+graphs</FONT></I></B>
+<P><FONT color=#000000>To save your parameters and graphs go to the Print &amp;
+File Window manager that automatically pops up when you start <I>MyFirstNEURON.
+</I>First, select the icon representing the parameter panel in the left virtual
+screen by clicking on it with the right mouse button. Then, select the icon
+representing the graph panel. Unfortunately, this specific order is crucial for
+retrieval of your graphs. To unselect a selected icon, go to the right virtual
+screen and press the right mouse button on the icon. Press the PFWM <I>Session
+</I>button, choose <I>Save selected</I>, and enter a filename. To restore your
+session use the <I>Retrieve </I>option under the <I>Session </I>menu on the demo
+main panel and type the filename.</FONT>
+<P><B><I><FONT color=#0000ff>Create your own system</FONT></I></B>
+<P><IMG height=350 src="MyFirstNEURONmanual_files/inserter.gif" width=77
+align=right>In the <I>Create Your Own</I> section the user chooses from a larger
+set of <A href="methods.htm">mechanisms</A> which
+to insert into the membrane by pressing the <FONT size=-1>Insert/Remove
+Mechanisms </FONT>button. After the membrane has been configured the <FONT
+size=-1>Create Parameter Panel </FONT>button will pop up a panel with the
+parameters that are relevant to the inserted mechanisms. If you decide to insert
+new or uninsert inserted mechanisms the parameter panel will be adjusted by
+pressing the button again.
+<P>Parameters that were not encountered in the <I>Experiments</I> section
+include a.o. the diameter <FONT size=-1>diam (um)</FONT> and capacitance <FONT
+size=-1>cm</FONT> <FONT size=-1>(uF/cm<SUP>2</SUP> )</FONT> of the cell, the
+equilibrium potentials <FONT size=-1>ecan </FONT>and <FONT size=-1>eh </FONT>of
+the <FONT size=-1><I>ICAN</I> </FONT>and <I><FONT size=-1>H-</FONT></I>current
+respectively, the depth <FONT size=-1>depth_cadyn</FONT> <FONT size=-1>(um)
+</FONT>of the thin <A
+href="cadyn.mod">calcium
+diffusion</A> shell under the membrane, the time constant <FONT
+size=-1>taur_cadyn (ms) </FONT>and equilibrium concentration <FONT
+size=-1>cainf_cadyn (mM) </FONT>of intracellular calcium diffusion, the time
+constant <FONT size=-1>kt_cadyn</FONT> and equilibrium calcium value <FONT
+size=-1>kd_cadyn</FONT> of the calcium ATPase <A
+href="cadyn.mod">pump</A>.
+<FONT color=#000000>If the calcium diffusion &amp; pump mechanism is inserted
+the initial internal calcium concentration will be set to the equilibrium value
+of the pump, and use <FONT size=-1>cao0_ca_ion</FONT> to set the external
+calcium concentration from the command line (default 2 <FONT
+size=-1>mM</FONT>).</FONT>
+<P>The synapses in the <I>Create Your Own </I>section<I> </I>are more advanced
+than the alpha synapses in the <I>Experiments</I> section. Every time a spike
+arrives, a rectangular transmitter pulse is generated. Transmitter binding is
+modeled as a first order kinetic system (see for brief explanation e.g. <A
+href="ampa2.mod">ampa2.mod</A>).
+Also, the frequency of release of the synapses can be specified.
+<P>Graphs can be created with <FONT size=-1>Create Graph</FONT> button on the
+main control as described above. When plotting variables the name of the cell in
+question should dot prefix the variable. The one cell system is called <FONT
+size=-1>soma</FONT>, the two cells in the interconnected system are called <FONT
+size=-1>cell1</FONT> and <FONT size=-1>cell2</FONT>.
+<P>To save and restore your cell definition, parameter values and graphs choose
+the <I>Session</I> option on the main panel. It is important to always restore
+your sessions in the appropriate environment (<I>Experiments</I>, <I>My Own
+Cell</I>, or <I>My Two Cells</I>).
+<P>Global values in the <FONT size=-1>mod </FONT>files can be modified by
+popping up the NEURON main panel under the <I>Other</I> menu, followed by the
+option sequence <I>Distributed Mechanisms, Viewers, Mechanisms (Globals)</I>.
+Global modifications are not automatically saved, if desired the user should
+save the modified global parameter panels with the other parameter panels and
+graphs as described above.
+<P>Advanced users may want to modify the equations that describe channels,
+synapses, and calcium dynamics by editing the <FONT size=-1>mod</FONT> files in
+question, or own <FONT size=-1>mod </FONT>files can be added if desired. Click
+here for information on the <A
+href="http://spine.med.yale.edu/neuron/papers/nc99/nmodl.htm">model description
+language</A>. After modifying or adding <FONT size=-1>mod</FONT> files,
+<TT><FONT size=+1>special</FONT></TT> should always be recompiled with the
+<TT><FONT size=+1>nrnivmodl </FONT></TT>command. </P></BODY></HTML>

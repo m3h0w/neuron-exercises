@@ -1,0 +1,1293 @@
+[
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "importPath": "neuron",
+        "description": "neuron",
+        "isExtraImport": true,
+        "detail": "neuron",
+        "documentation": {}
+    },
+    {
+        "label": "ms",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "mV",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "ms",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "mV",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "ms",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "mV",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "ms",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "mV",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "ms",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "mV",
+        "importPath": "neuron.units",
+        "description": "neuron.units",
+        "isExtraImport": true,
+        "detail": "neuron.units",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "soma = h.Section(name = \"soma\")\nsoma.nseg = 1\nsoma.L = 18.8\nsoma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nsoma.insert(\"CaT\")\nsoma.insert('htc')\nfor seg in soma:\n\tseg.ena = 71.5 ",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.nseg",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "soma.nseg = 1\nsoma.L = 18.8\nsoma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nsoma.insert(\"CaT\")\nsoma.insert('htc')\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.L",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "soma.L = 18.8\nsoma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nsoma.insert(\"CaT\")\nsoma.insert('htc')\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.diam",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "soma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nsoma.insert(\"CaT\")\nsoma.insert('htc')\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.Ra",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "soma.Ra = 123\nsoma.insert(\"hh\")\nsoma.insert(\"CaT\")\nsoma.insert('htc')\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.ena",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\n\tseg.eca = 126.1\n\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.ek",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\n\tseg.eca = 126.1\n\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.hh.gnabar",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\n\tseg.eca = 126.1\n\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 700",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.hh.gl",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\n\tseg.eca = 126.1\n\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 700\niclamp.dur = 1600",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.hh.el",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.hh.el = -60\n\tseg.eca = 126.1\n\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 700\niclamp.dur = 1600\niclamp.amp = -0.05",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.eca",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.eca = 126.1\n\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 700\niclamp.dur = 1600\niclamp.amp = -0.05\n# clamp vector i",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.CaT.gmax",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.CaT.gmax = 0.02\n\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 700\niclamp.dur = 1600\niclamp.amp = -0.05\n# clamp vector i\ni_clamp = h.Vector().record(iclamp._ref_i)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.htc.ghbar",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "\tseg.htc.ghbar = 0.0000\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 700\niclamp.dur = 1600\niclamp.amp = -0.05\n# clamp vector i\ni_clamp = h.Vector().record(iclamp._ref_i)\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "iclamp = h.IClamp(soma(0.5))\niclamp.delay = 700\niclamp.dur = 1600\niclamp.amp = -0.05\n# clamp vector i\ni_clamp = h.Vector().record(iclamp._ref_i)\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp.delay",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "iclamp.delay = 700\niclamp.dur = 1600\niclamp.amp = -0.05\n# clamp vector i\ni_clamp = h.Vector().record(iclamp._ref_i)\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp.dur",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "iclamp.dur = 1600\niclamp.amp = -0.05\n# clamp vector i\ni_clamp = h.Vector().record(iclamp._ref_i)\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates\nr = h.Vector().record(soma(0.5).CaT._ref_r)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp.amp",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "iclamp.amp = -0.05\n# clamp vector i\ni_clamp = h.Vector().record(iclamp._ref_i)\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates\nr = h.Vector().record(soma(0.5).CaT._ref_r)\ns = h.Vector().record(soma(0.5).CaT._ref_s)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "i_clamp",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "i_clamp = h.Vector().record(iclamp._ref_i)\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates\nr = h.Vector().record(soma(0.5).CaT._ref_r)\ns = h.Vector().record(soma(0.5).CaT._ref_s)\n# Ih current\ni_h = h.Vector().record(soma(0.5).htc._ref_i)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "v = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates\nr = h.Vector().record(soma(0.5).CaT._ref_r)\ns = h.Vector().record(soma(0.5).CaT._ref_s)\n# Ih current\ni_h = h.Vector().record(soma(0.5).htc._ref_i)\n# sodium current (ina) from HH",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "i_ca",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "i_ca = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates\nr = h.Vector().record(soma(0.5).CaT._ref_r)\ns = h.Vector().record(soma(0.5).CaT._ref_s)\n# Ih current\ni_h = h.Vector().record(soma(0.5).htc._ref_i)\n# sodium current (ina) from HH\ni_na = h.Vector().record(soma(0.5)._ref_ina)\n# potassium current (ik)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "t = h.Vector().record(h._ref_t)  # Time stamp vector\n# r,s gates\nr = h.Vector().record(soma(0.5).CaT._ref_r)\ns = h.Vector().record(soma(0.5).CaT._ref_s)\n# Ih current\ni_h = h.Vector().record(soma(0.5).htc._ref_i)\n# sodium current (ina) from HH\ni_na = h.Vector().record(soma(0.5)._ref_ina)\n# potassium current (ik)\ni_k = h.Vector().record(soma(0.5)._ref_ik)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "r = h.Vector().record(soma(0.5).CaT._ref_r)\ns = h.Vector().record(soma(0.5).CaT._ref_s)\n# Ih current\ni_h = h.Vector().record(soma(0.5).htc._ref_i)\n# sodium current (ina) from HH\ni_na = h.Vector().record(soma(0.5)._ref_ina)\n# potassium current (ik)\ni_k = h.Vector().record(soma(0.5)._ref_ik)\nh.finitialize(-65 * mV)\nh.continuerun(3000 * ms)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "s = h.Vector().record(soma(0.5).CaT._ref_s)\n# Ih current\ni_h = h.Vector().record(soma(0.5).htc._ref_i)\n# sodium current (ina) from HH\ni_na = h.Vector().record(soma(0.5)._ref_ina)\n# potassium current (ik)\ni_k = h.Vector().record(soma(0.5)._ref_ik)\nh.finitialize(-65 * mV)\nh.continuerun(3000 * ms)\nplt.figure(1)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "i_h",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "i_h = h.Vector().record(soma(0.5).htc._ref_i)\n# sodium current (ina) from HH\ni_na = h.Vector().record(soma(0.5)._ref_ina)\n# potassium current (ik)\ni_k = h.Vector().record(soma(0.5)._ref_ik)\nh.finitialize(-65 * mV)\nh.continuerun(3000 * ms)\nplt.figure(1)\nplt.subplot(5, 1, 1)\nplt.plot(t, i_clamp)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "i_na",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "i_na = h.Vector().record(soma(0.5)._ref_ina)\n# potassium current (ik)\ni_k = h.Vector().record(soma(0.5)._ref_ik)\nh.finitialize(-65 * mV)\nh.continuerun(3000 * ms)\nplt.figure(1)\nplt.subplot(5, 1, 1)\nplt.plot(t, i_clamp)\nplt.xlabel(\"t (ms)\")\nplt.ylabel(\"I (mA)\")",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "i_k",
+        "kind": 5,
+        "importPath": "2.main",
+        "description": "2.main",
+        "peekOfCode": "i_k = h.Vector().record(soma(0.5)._ref_ik)\nh.finitialize(-65 * mV)\nh.continuerun(3000 * ms)\nplt.figure(1)\nplt.subplot(5, 1, 1)\nplt.plot(t, i_clamp)\nplt.xlabel(\"t (ms)\")\nplt.ylabel(\"I (mA)\")\nplt.subplot(5, 1, 2)\nplt.plot(t, v)",
+        "detail": "2.main",
+        "documentation": {}
+    },
+    {
+        "label": "chain",
+        "kind": 2,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "def chain(*iterables):\n    for iterable in iterables:\n        yield from iterable\nh.load_file('stdrun.hoc')\nsoma = h.Section(name='soma')\napical = h.Section(name='apical')\nbasilar = h.Section(name='basilar')\naxon = h.Section(name='axon')\napical.connect(soma(1))\nbasilar.connect(soma(0))",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "soma = h.Section(name='soma')\napical = h.Section(name='apical')\nbasilar = h.Section(name='basilar')\naxon = h.Section(name='axon')\napical.connect(soma(1))\nbasilar.connect(soma(0))\naxon.connect(soma(0))\nsoma.L = 30\nsoma.diam = 30\nsoma.nseg = 1",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "apical",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "apical = h.Section(name='apical')\nbasilar = h.Section(name='basilar')\naxon = h.Section(name='axon')\napical.connect(soma(1))\nbasilar.connect(soma(0))\naxon.connect(soma(0))\nsoma.L = 30\nsoma.diam = 30\nsoma.nseg = 1\napical.L = 600",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "basilar",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "basilar = h.Section(name='basilar')\naxon = h.Section(name='axon')\napical.connect(soma(1))\nbasilar.connect(soma(0))\naxon.connect(soma(0))\nsoma.L = 30\nsoma.diam = 30\nsoma.nseg = 1\napical.L = 600\napical.diam = 1",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "axon",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "axon = h.Section(name='axon')\napical.connect(soma(1))\nbasilar.connect(soma(0))\naxon.connect(soma(0))\nsoma.L = 30\nsoma.diam = 30\nsoma.nseg = 1\napical.L = 600\napical.diam = 1\napical.nseg = 23",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.L",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "soma.L = 30\nsoma.diam = 30\nsoma.nseg = 1\napical.L = 600\napical.diam = 1\napical.nseg = 23\nbasilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.diam",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "soma.diam = 30\nsoma.nseg = 1\napical.L = 600\napical.diam = 1\napical.nseg = 23\nbasilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "soma.nseg",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "soma.nseg = 1\napical.L = 600\napical.diam = 1\napical.nseg = 23\nbasilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "apical.L",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "apical.L = 600\napical.diam = 1\napical.nseg = 23\nbasilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "apical.diam",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "apical.diam = 1\napical.nseg = 23\nbasilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "apical.nseg",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "apical.nseg = 23\nbasilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "basilar.L",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "basilar.L = 200\nbasilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "basilar.diam",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "basilar.diam = 2\nbasilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1\nfor sec in h.allsec():",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "basilar.nseg",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "basilar.nseg = 5\naxon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1\nfor sec in h.allsec():\n    length_constant = 1e5 * np.sqrt(sec.diam/(4*np.pi*100*sec.Ra*sec.cm))",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "axon_length",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "axon_length = 1000 # um\naxon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1\nfor sec in h.allsec():\n    length_constant = 1e5 * np.sqrt(sec.diam/(4*np.pi*100*sec.Ra*sec.cm))\n    nseg = int((sec.L/(0.1*length_constant)+0.9)/2)*2 + 1",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "axon.L",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "axon.L = axon_length\naxon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1\nfor sec in h.allsec():\n    length_constant = 1e5 * np.sqrt(sec.diam/(4*np.pi*100*sec.Ra*sec.cm))\n    nseg = int((sec.L/(0.1*length_constant)+0.9)/2)*2 + 1\n    print(sec.name(), \"nseg =\", nseg)",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "axon.diam",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "axon.diam = 1\naxon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1\nfor sec in h.allsec():\n    length_constant = 1e5 * np.sqrt(sec.diam/(4*np.pi*100*sec.Ra*sec.cm))\n    nseg = int((sec.L/(0.1*length_constant)+0.9)/2)*2 + 1\n    print(sec.name(), \"nseg =\", nseg)\nsoma.insert('hh')",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "axon.nseg",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "axon.nseg = 37\nfor sec in h.allsec():\n    sec.Ra = 100\n    sec.cm = 1\nfor sec in h.allsec():\n    length_constant = 1e5 * np.sqrt(sec.diam/(4*np.pi*100*sec.Ra*sec.cm))\n    nseg = int((sec.L/(0.1*length_constant)+0.9)/2)*2 + 1\n    print(sec.name(), \"nseg =\", nseg)\nsoma.insert('hh')\napical.insert('pas')",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "syn",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "syn = h.AlphaSynapse(0.5, sec=soma)\nsyn.onset = 0.5\nsyn.gmax = 0.05\nsyn.tau = 0.1\nsyn.e = 0\nv = h.Vector().record(soma(0.5)._ref_v)\nt = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "syn.onset",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "syn.onset = 0.5\nsyn.gmax = 0.05\nsyn.tau = 0.1\nsyn.e = 0\nv = h.Vector().record(soma(0.5)._ref_v)\nt = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "syn.gmax",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "syn.gmax = 0.05\nsyn.tau = 0.1\nsyn.e = 0\nv = h.Vector().record(soma(0.5)._ref_v)\nt = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),\n]",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "syn.tau",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "syn.tau = 0.1\nsyn.e = 0\nv = h.Vector().record(soma(0.5)._ref_v)\nt = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),\n]\ndt = 0.025",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "syn.e",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "syn.e = 0\nv = h.Vector().record(soma(0.5)._ref_v)\nt = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),\n]\ndt = 0.025\ntstop = 10",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "v = h.Vector().record(soma(0.5)._ref_v)\nt = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),\n]\ndt = 0.025\ntstop = 10\nv_init = -65",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "t = h.Vector().record(h._ref_t)\nv_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),\n]\ndt = 0.025\ntstop = 10\nv_init = -65\nh.finitialize(v_init)",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "v_axon_list",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "v_axon_list = [\n    h.Vector().record(axon(0)._ref_v),\n    h.Vector().record(axon(0.5)._ref_v),\n    h.Vector().record(axon(1)._ref_v),\n]\ndt = 0.025\ntstop = 10\nv_init = -65\nh.finitialize(v_init)\nh.fcurrent()",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "dt",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "dt = 0.025\ntstop = 10\nv_init = -65\nh.finitialize(v_init)\nh.fcurrent()\nh.continuerun(tstop)\nplt.figure()\nplt.plot(t, v)\nplt.ylim(-90, 40)\nplt.xlabel('t (ms)')",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "tstop",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "tstop = 10\nv_init = -65\nh.finitialize(v_init)\nh.fcurrent()\nh.continuerun(tstop)\nplt.figure()\nplt.plot(t, v)\nplt.ylim(-90, 40)\nplt.xlabel('t (ms)')\nplt.ylabel('V (mV)')",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "v_init",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "v_init = -65\nh.finitialize(v_init)\nh.fcurrent()\nh.continuerun(tstop)\nplt.figure()\nplt.plot(t, v)\nplt.ylim(-90, 40)\nplt.xlabel('t (ms)')\nplt.ylabel('V (mV)')\n# plot topology",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "peak_t_list",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "peak_t_list = []\nfor v_axon in v_axon_list:\n    axon = np.array(v_axon)\n    peak, peak_i = np.max(axon), np.argmax(axon)\n    peak_t = peak_i * dt\n    peak_t2 = t[peak_i]\n    print(peak, peak_i, peak_t, peak_t2)\n    peak_t_list.append(peak_t)\n# calculate conduction velocity\nprev_t = None",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "prev_t",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "prev_t = None\nv_list = []\nfor t in peak_t_list:\n    if prev_t and t:\n        velocity = (axon_length / (t - prev_t)) / 1000\n        v_list.append(velocity)\n    prev_t = t\naverage_velocity = np.mean(v_list)\nprint(\"average velocity:\", average_velocity, \"m/s\")\nplt.show()",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "v_list",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "v_list = []\nfor t in peak_t_list:\n    if prev_t and t:\n        velocity = (axon_length / (t - prev_t)) / 1000\n        v_list.append(velocity)\n    prev_t = t\naverage_velocity = np.mean(v_list)\nprint(\"average velocity:\", average_velocity, \"m/s\")\nplt.show()",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "average_velocity",
+        "kind": 5,
+        "importPath": "3.main",
+        "description": "3.main",
+        "peekOfCode": "average_velocity = np.mean(v_list)\nprint(\"average velocity:\", average_velocity, \"m/s\")\nplt.show()",
+        "detail": "3.main",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "4.main",
+        "description": "4.main",
+        "peekOfCode": "def run(experiment_number=1):\n    def chain(*iterables):\n        for iterable in iterables:\n            yield from iterable\n    h.load_file('stdrun.hoc')\n    soma = h.Section(name='soma')\n    apical = h.Section(name='apical')\n    basilar = h.Section(name='basilar')\n    axon = h.Section(name='axon')\n    apical.connect(soma(1))",
+        "detail": "4.main",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "5.main",
+        "description": "5.main",
+        "peekOfCode": "def run(experiment_number=1):\n    def chain(*iterables):\n        for iterable in iterables:\n            yield from iterable\n    h.load_file('stdrun.hoc')\n    soma = h.Section(name='soma')\n    apical = h.Section(name='apical')\n    basilar = h.Section(name='basilar')\n    axon = h.Section(name='axon')\n    apical.connect(soma(1))",
+        "detail": "5.main",
+        "documentation": {}
+    },
+    {
+        "label": "NDEND",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "NDEND = 1\nsoma  = h.Section(name = \"soma\")\napical  = h.Section(name = \"apical\")\nap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  ",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "ap",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "ap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "oblique",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "oblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])\n    oblique[i].connect(ap[i-1])",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "soma.L",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "soma.L = 30\nsoma.diam = 30\napical.L = 30\napical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "soma.diam",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "soma.diam = 30\napical.L = 30\napical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)\nps.show(0)",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "apical.L",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "apical.L = 30\napical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "apical.diam",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "apical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")\n#h.define_shape()      #not necessary if PlotShape is created",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "ps",
+        "kind": 5,
+        "importPath": "6.geom_ex1",
+        "description": "6.geom_ex1",
+        "peekOfCode": "ps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")\n#h.define_shape()      #not necessary if PlotShape is created\n#for sec in h.allsec():\n#   for i in range(sec.n3d()):\n#       print(sec, sec.x3d(i), sec.y3d(i), sec.z3d(i), sec.diam3d(i))",
+        "detail": "6.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "NDEND",
+        "kind": 5,
+        "importPath": "6.geom_ex2",
+        "description": "6.geom_ex2",
+        "peekOfCode": "NDEND = 10\nsoma  = h.Section(name = \"soma\")\napical  = h.Section(name = \"apical\")\nap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  ",
+        "detail": "6.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "ap",
+        "kind": 5,
+        "importPath": "6.geom_ex2",
+        "description": "6.geom_ex2",
+        "peekOfCode": "ap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])",
+        "detail": "6.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "oblique",
+        "kind": 5,
+        "importPath": "6.geom_ex2",
+        "description": "6.geom_ex2",
+        "peekOfCode": "oblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])\n    oblique[i].connect(ap[i-1])",
+        "detail": "6.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "ps",
+        "kind": 5,
+        "importPath": "6.geom_ex2",
+        "description": "6.geom_ex2",
+        "peekOfCode": "ps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")\n#h.define_shape()      #not necessary if PlotShape is created\nfor sec in h.allsec():\n    for i in range(sec.n3d()):\n        print(sec, sec.x3d(i), sec.y3d(i), sec.z3d(i), sec.diam3d(i))",
+        "detail": "6.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "NDEND",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "NDEND = 1\nsoma  = h.Section(name = \"soma\")\napical  = h.Section(name = \"apical\")\nap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  ",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "ap",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "ap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "oblique",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "oblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])\n    oblique[i].connect(ap[i-1])",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "soma.L",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "soma.L = 30\nsoma.diam = 30\napical.L = 30\napical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "soma.diam",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "soma.diam = 30\napical.L = 30\napical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)\nps.show(0)",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "apical.L",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "apical.L = 30\napical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "apical.diam",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "apical.diam = 5\nfor i in range(NDEND):\n    ap[i].L = 15\n    ap[i].diam = 2 \n    oblique[i].L = 15+5*i\n    oblique[i].diam = 1 \nps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")\n#h.define_shape()      #not necessary if PlotShape is created",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "ps",
+        "kind": 5,
+        "importPath": "7.geom_ex1",
+        "description": "7.geom_ex1",
+        "peekOfCode": "ps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")\n#h.define_shape()      #not necessary if PlotShape is created\n#for sec in h.allsec():\n#   for i in range(sec.n3d()):\n#       print(sec, sec.x3d(i), sec.y3d(i), sec.z3d(i), sec.diam3d(i))",
+        "detail": "7.geom_ex1",
+        "documentation": {}
+    },
+    {
+        "label": "NDEND",
+        "kind": 5,
+        "importPath": "7.geom_ex2",
+        "description": "7.geom_ex2",
+        "peekOfCode": "NDEND = 10\nsoma  = h.Section(name = \"soma\")\napical  = h.Section(name = \"apical\")\nap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  ",
+        "detail": "7.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "ap",
+        "kind": 5,
+        "importPath": "7.geom_ex2",
+        "description": "7.geom_ex2",
+        "peekOfCode": "ap = []\noblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])",
+        "detail": "7.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "oblique",
+        "kind": 5,
+        "importPath": "7.geom_ex2",
+        "description": "7.geom_ex2",
+        "peekOfCode": "oblique = []\nfor i in range(NDEND):\n    ap.append(h.Section(name  = \"ap[%g]\" %i))\n    oblique.append(h.Section(name  = \"oblique[%g]\" %i))\napical.connect(soma)\nap[0].connect(apical)  \noblique[0].connect(apical)  \nfor i in range(1, NDEND):\n    ap[i].connect(ap[i-1])\n    oblique[i].connect(ap[i-1])",
+        "detail": "7.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "ps",
+        "kind": 5,
+        "importPath": "7.geom_ex2",
+        "description": "7.geom_ex2",
+        "peekOfCode": "ps = h.PlotShape(True)\nps.show(0)\nps.exec_menu(\"View Axis\")\n#h.define_shape()      #not necessary if PlotShape is created\nfor sec in h.allsec():\n    for i in range(sec.n3d()):\n        print(sec, sec.x3d(i), sec.y3d(i), sec.z3d(i), sec.diam3d(i))",
+        "detail": "7.geom_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "get_attributes",
+        "kind": 2,
+        "importPath": "utils.utils",
+        "description": "utils.utils",
+        "peekOfCode": "def get_attributes(obj):\n    print(\", \".join(item for item in dir(obj) if not item.startswith(\"__\")))\ndef get3d(h):\n    h.define_shape()      #not necessary if PlotShape is created    \n    for sec in h.allsec():\n        for i in range(sec.n3d()):\n            print(sec, sec.x3d(i), sec.y3d(i), sec.z3d(i), sec.diam3d(i))",
+        "detail": "utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get3d",
+        "kind": 2,
+        "importPath": "utils.utils",
+        "description": "utils.utils",
+        "peekOfCode": "def get3d(h):\n    h.define_shape()      #not necessary if PlotShape is created    \n    for sec in h.allsec():\n        for i in range(sec.n3d()):\n            print(sec, sec.x3d(i), sec.y3d(i), sec.z3d(i), sec.diam3d(i))",
+        "detail": "utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "soma = h.Section(name='soma')\n# Insert passive properties\nsoma.insert('pas')\n# Create a stimulus\nstim = h.IClamp(soma(0.5))\nstim.delay = 5\nstim.dur = 1\nstim.amp = 1.0\n# Initialize a vector to record time\nt = h.Vector().record(h._ref_t)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "stim",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "stim = h.IClamp(soma(0.5))\nstim.delay = 5\nstim.dur = 1\nstim.amp = 1.0\n# Initialize a vector to record time\nt = h.Vector().record(h._ref_t)\n# Initialize a vector to record membrane potential\nv = h.Vector().record(soma(0.5)._ref_v)\n# Run a simulation\nh.finitialize(-65)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "stim.delay",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "stim.delay = 5\nstim.dur = 1\nstim.amp = 1.0\n# Initialize a vector to record time\nt = h.Vector().record(h._ref_t)\n# Initialize a vector to record membrane potential\nv = h.Vector().record(soma(0.5)._ref_v)\n# Run a simulation\nh.finitialize(-65)\n# h.continuerun(100)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "stim.dur",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "stim.dur = 1\nstim.amp = 1.0\n# Initialize a vector to record time\nt = h.Vector().record(h._ref_t)\n# Initialize a vector to record membrane potential\nv = h.Vector().record(soma(0.5)._ref_v)\n# Run a simulation\nh.finitialize(-65)\n# h.continuerun(100)\n# while h.t < 100:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "stim.amp",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "stim.amp = 1.0\n# Initialize a vector to record time\nt = h.Vector().record(h._ref_t)\n# Initialize a vector to record membrane potential\nv = h.Vector().record(soma(0.5)._ref_v)\n# Run a simulation\nh.finitialize(-65)\n# h.continuerun(100)\n# while h.t < 100:\n# use tqdm",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "t = h.Vector().record(h._ref_t)\n# Initialize a vector to record membrane potential\nv = h.Vector().record(soma(0.5)._ref_v)\n# Run a simulation\nh.finitialize(-65)\n# h.continuerun(100)\n# while h.t < 100:\n# use tqdm\ndt = 0.1\nrun_for = 100",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "v = h.Vector().record(soma(0.5)._ref_v)\n# Run a simulation\nh.finitialize(-65)\n# h.continuerun(100)\n# while h.t < 100:\n# use tqdm\ndt = 0.1\nrun_for = 100\nfor _ in tqdm(range(int(run_for / dt))):\n    h.fadvance()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "dt",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "dt = 0.1\nrun_for = 100\nfor _ in tqdm(range(int(run_for / dt))):\n    h.fadvance()\n    # print('Simulation time: ', h.t)\n# Plot the results\nplt.figure()\nplt.plot(t, v)\nplt.xlabel('time (ms)')\nplt.ylabel('mV')",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "run_for",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "run_for = 100\nfor _ in tqdm(range(int(run_for / dt))):\n    h.fadvance()\n    # print('Simulation time: ', h.t)\n# Plot the results\nplt.figure()\nplt.plot(t, v)\nplt.xlabel('time (ms)')\nplt.ylabel('mV')\nplt.show()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "soma = h.Section(name = \"soma\")\nsoma.nseg = 1\nsoma.L = 18.8\nsoma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "soma.nseg",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "soma.nseg = 1\nsoma.L = 18.8\nsoma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "soma.L",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "soma.L = 18.8\nsoma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "soma.diam",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "soma.diam = 18.8\nsoma.Ra = 123\nsoma.insert(\"hh\")\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\nsoma.insert(\"CaT\")",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "soma.Ra",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "soma.Ra = 123\nsoma.insert(\"hh\")\nfor seg in soma:\n\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\nsoma.insert(\"CaT\")\nfor seg in soma: # syntax: ignore",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.ena",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "\tseg.ena = 71.5 \n\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\nsoma.insert(\"CaT\")\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 500",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.ek",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "\tseg.ek = -89.1\n\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\nsoma.insert(\"CaT\")\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 500\niclamp.dur = 500",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.hh.gnabar",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "\tseg.hh.gnabar = 0.25\n\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\nsoma.insert(\"CaT\")\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 500\niclamp.dur = 500\niclamp.amp = -0.05",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.hh.gl",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "\tseg.hh.gl = 0.0001666\n\tseg.hh.el = -60\nsoma.insert(\"CaT\")\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 500\niclamp.dur = 500\niclamp.amp = -0.05\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "\tseg.hh.el",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "\tseg.hh.el = -60\nsoma.insert(\"CaT\")\nfor seg in soma: # syntax: ignore\n    seg.eca = 126.1\niclamp = h.IClamp(soma(0.5))\niclamp.delay = 500\niclamp.dur = 500\niclamp.amp = -0.05\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "iclamp = h.IClamp(soma(0.5))\niclamp.delay = 500\niclamp.dur = 500\niclamp.amp = -0.05\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp.delay",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "iclamp.delay = 500\niclamp.dur = 500\niclamp.amp = -0.05\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)\nplt.subplot(2, 1, 1)",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp.dur",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "iclamp.dur = 500\niclamp.amp = -0.05\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)\nplt.subplot(2, 1, 1)\nplt.plot(t, v)",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "iclamp.amp",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "iclamp.amp = -0.05\nv = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)\nplt.subplot(2, 1, 1)\nplt.plot(t, v)\nplt.xlabel(\"t (ms)\")",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "v = h.Vector().record(soma(0.5)._ref_v)  # Membrane potential vector\n# calcium current (ica)\ni = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)\nplt.subplot(2, 1, 1)\nplt.plot(t, v)\nplt.xlabel(\"t (ms)\")\nplt.ylabel(\"V (mV)\")",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "i = h.Vector().record(soma(0.5)._ref_ica)  # Membrane potential vector\nt = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)\nplt.subplot(2, 1, 1)\nplt.plot(t, v)\nplt.xlabel(\"t (ms)\")\nplt.ylabel(\"V (mV)\")\nplt.subplot(2, 1, 2)\nplt.plot(t, i)",
+        "detail": "soma",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "soma",
+        "description": "soma",
+        "peekOfCode": "t = h.Vector().record(h._ref_t)  # Time stamp vector\nh.finitialize(-65 * mV)\nh.continuerun(2000 * ms)\nplt.subplot(2, 1, 1)\nplt.plot(t, v)\nplt.xlabel(\"t (ms)\")\nplt.ylabel(\"V (mV)\")\nplt.subplot(2, 1, 2)\nplt.plot(t, i)\nplt.xlabel(\"t (ms)\")",
+        "detail": "soma",
+        "documentation": {}
+    }
+]

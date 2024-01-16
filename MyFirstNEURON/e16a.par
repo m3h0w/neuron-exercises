@@ -1,0 +1,35 @@
+g[2].addvar("ampasyn.g", 2, 0)
+g[2].addvar("nmdasyn.g", 3, 0)
+g[2].size(0,500,0,0.04)
+
+g[3].addvar("gabaAsyn.g", 2, 0)
+g[3].addvar("gabaBsyn.g", 3, 0)
+g[3].size(0,500,0,0.1)
+
+g[1].addexpr("ampasyn.i+gabaAsyn.i+gabaBsyn.i+nmdasyn.i", 5, 0)
+g[1].size(0,500,-2,3)
+
+g[0].addvar("v(.5)", 1, 0)
+g[0].size(0,500,-80,20)
+
+gmax_EPSP = 0.02
+onset_EPSP = 20
+ampasyn.w = 1
+nmdasyn.w = 0.5
+gmax_IPSP = 0.1
+onset_IPSP = 25
+gabaAsyn.w = 1
+gabaBsyn.w = 0.05
+
+soma.pna_leak = 3.4138e-08
+soma.pk_leak = 3.4483e-07
+soma.nai = 31
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
+soma.cli = 7
+soma.clo = 120
+soma.mgo = 1.2
+
+v_init = -55
+tstop = 500

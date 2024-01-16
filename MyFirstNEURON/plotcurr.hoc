@@ -1,0 +1,210 @@
+	objref curgraph,q,r
+
+	create dummy_neuron
+	
+dummy_neuron {
+        curgraph= new VBox()
+        curgraph.intercept(1)
+        xpanel("")
+           if (currentnr==1){
+		insert HH
+                xlabel("ina_HH = fast Hodgkin-Huxley type Na+ current")
+                xlabel("-> responsible for action potential generation")
+           }
+           if (currentnr==2){
+		insert HH
+                xlabel("ik_HH = fast Hodgkin-Huxley type K+ current")
+                xlabel("-> involved in repolarization of action potential")
+           }
+           if (currentnr==3){
+		insert iA
+                xlabel("iA = transient K+ current")
+                xlabel("-> acts to slow rate of spike generation")
+           }
+           if (currentnr==4){ 
+		insert iAHP  
+                xlabel("iAHP = slow, Ca2+ activated K+ current")
+                xlabel("-> calcium dependent, voltage independent")
+                xlabel("-> hyperpolarizes the cell after a spike train")
+                xlabel("-> slows down rate of action potential generation")
+           }
+           if (currentnr==5){
+		insert iC 
+                xlabel("iC = Ca2+ activated K+ current")
+                xlabel("-> calcium and voltage dependent")
+                xlabel("-> involved in repolarization of action potential")
+           }
+           if (currentnr==6){
+		insert iM
+                xlabel("iM = slowly activating K+ current")
+                xlabel("-> blocks repetitive firing")
+           }
+           if (currentnr==7){
+		insert iL
+                xlabel("iL = high threshold Ca2+ current")
+                xlabel("-> allows calcium entry during action potential")
+           }
+           if (currentnr==8){
+		insert iT
+                xlabel("iT = transient low threshold Ca2+ current")
+                xlabel("-> generates a burst of action potentials")
+           }
+           if (currentnr==9){
+                insert HH2
+                xlabel("ina_HH2 = fast Hodgkin-Huxley type Na+ current")
+                xlabel("-> responsible for action potential generation")
+           }
+           if (currentnr==10){
+                insert HH2
+                xlabel("ik_HH2 = fast Hodgkin-Huxley type K+ current")
+                xlabel("-> involved in repolarization of action potential")
+           }
+           if (currentnr==11){
+                insert iAHP2
+                xlabel("iAHP2 = slow, Ca2+ activated K+ current")
+                xlabel("-> calcium dependent, voltage independent")
+                xlabel("-> hyperpolarizes the cell after a spike train")
+                xlabel("-> slows down rate of action potential generation")
+           }
+           if (currentnr==12){
+                insert iT2
+                xlabel("iT2 = transient low threshold Ca2+ current")
+                xlabel("-> generates a burst of action potentials")
+           }
+           if (currentnr==13){
+                insert iCAN
+                xlabel("iCAN = slow, Ca2+ dependent kation current")
+		xlabel("-> non specific for cations Na+, K+, Ca2+, ...")
+		xlabel("-> calcium dependent, voltage independent")
+           }
+           if (currentnr==14){
+                insert iH
+                xlabel("iH = hyperpolarization-activated kation current")
+                xlabel("-> mixed Na+/K+ current")
+                xlabel("-> calcium dependent, voltage dependent")
+           }
+
+	if (ismembrane("ca_ion")) xvalue("cai","dummy_neuron.cai", 1,"", 0, 0 )
+	xvalue("Init V","v_init", 1, "stdinit()", 1, 1)
+   	xvalue("celsius","celsius", 1,"", 0, 1 )
+	xmenu("Abscissa")
+	xbutton(" Voltage","dummy_neuron {plot_expression(q,1) plot_expression(r,1)}")
+	if (ismembrane("ca_ion")) {
+	  xbutton(" Internal [Ca2+]","dummy_neuron {plot_expression(q,2) plot_expression(r,2)}")
+	}
+	xmenu()
+        xpanel()  
+        q= new Graph()
+        r= new Graph()
+        curgraph.intercept(0)
+
+        if (currentnr==1){  // fast Na+ current 
+           q.addvar("m_inf_HH(.5)", 2, 0)
+           q.addvar("h_inf_HH(.5)", 3, 0)
+           r.addvar("tau_m_HH(.5)", 2, 0)
+           r.addvar("tau_h_HH(.5)", 3, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-.75,15.75)
+        }
+        if (currentnr==2){  // fast K+ current 
+           q.addvar("n_inf_HH(.5)", 2, 0)
+           r.addvar("tau_n_HH(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-.3,6.3)
+        }
+        if (currentnr==3){  // A-current
+           q.addvar("m_inf1_iA(.5)", 2, 0)
+           q.addvar("h_inf_iA(.5)", 3, 0)
+           r.addvar("tau_m_iA(.5)", 2, 0)
+           r.addvar("tau_h1_iA(.5)", 3, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-1,21)
+        }
+        if (currentnr==4){  // AHP-current
+           q.addvar("m_inf_iAHP(.5)", 2, 0)
+           r.addvar("tau_m_iAHP(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-15,315)
+        }   
+        if (currentnr==5){  // C-current
+           q.addvar("m_inf_iC(.5)", 2, 0)
+           r.addvar("tau_m_iC(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-1,21)
+        }
+        if (currentnr==6){  // M-current
+           q.addvar("m_inf_iM(.5)", 2, 0)
+           r.addvar("tau_m_iM(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-2.5,52.5)
+        }
+        if (currentnr==7){  // L-current
+           q.addvar("m_inf_iL(.5)", 2, 0)
+           r.addvar("tau_m_iL(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-.05,1.05)
+        }
+        if (currentnr==8){  // T-current
+           q.addvar("m_inf_iT(.5)", 2, 0)
+           q.addvar("h_inf_iT(.5)", 3, 0)
+           r.addvar("tau_m_iT(.5)", 2, 0)
+           r.addvar("tau_h_iT(.5)", 3, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-5,105)
+        }
+        if (currentnr==9){  // fast Na+ current HH2
+           q.addvar("m_inf_HH2(.5)", 2, 0)
+           q.addvar("h_inf_HH2(.5)", 3, 0)
+           r.addvar("tau_m_HH2(.5)", 2, 0)
+           r.addvar("tau_h_HH2(.5)", 3, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-.75,15.75)
+        }
+        if (currentnr==10){  // fast K+ current HH2
+           q.addvar("n_inf_HH2(.5)", 2, 0)
+           r.addvar("tau_n_HH2(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-.3,6.3)
+        }
+	if (currentnr==11){  // AHP2-current
+           q.addvar("m_inf_iAHP2(.5)", 2, 0)
+           r.addvar("tau_m_iAHP2(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-15,315)
+        }
+        if (currentnr==12){  // T2-current
+           q.addvar("m_inf_iT2(.5)", 2, 0)
+           q.addvar("h_inf_iT2(.5)", 3, 0)
+           r.addvar("tau_m_iT2(.5)", 2, 0)
+           r.addvar("tau_h_iT2(.5)", 3, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-5,105)
+        }
+       	if (currentnr==13){  // iCAN-current
+           q.addvar("m_inf_iCAN(.5)", 2, 0)
+           r.addvar("tau_m_iCAN(.5)", 2, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-10,210)
+        }
+        if (currentnr==14){  // iH-current
+           q.addexpr("s1_iH(.5)", 2, 0)
+           q.addexpr("s2_iH(.5)", 3, 0)
+           r.addvar("tau_s_iH(.5)", 2, 0)
+           r.addvar("tau_f_iH(.5)", 3, 0)
+           r.addvar("tau_c_iH(.5)", 4, 0)
+           q.size(-100,50,-.05,1.05)
+           r.size(-100,50,-150,3150)
+        }
+
+	if (currentnr==4 || currentnr==11 || currentnr==13) {
+	   plot_expression(q,2)
+           plot_expression(r,2)
+	} else {
+	   plot_expression(q,1) 
+	   plot_expression(r,1) 
+	}
+             
+        curgraph.map("Asympotic gate values and Time constants")
+}
+
+	curgraph.dismiss_action("create dummy_neuron")

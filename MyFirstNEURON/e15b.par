@@ -1,0 +1,23 @@
+g[0].addvar("v(.5)", 1, 2)
+g[0].size(0,400,-80,20)
+
+stim[2].dur[0] = 50
+stim[2].dur[1] = 250
+stim[2].dur[2] = 100
+stim[2].amp[0] = -70
+stim[2].amp[1] = -30
+stim[2].amp[2] = -70
+
+v_init = -70
+tstop = 400
+
+g[1].addvar("soma.ik_iM(.5)", 2, 0)
+g[1].size(0,400,0,0.05)
+
+soma.pna_leak = 3.4483e-08
+soma.pk_leak = 3.4483e-07
+soma.gkbar_iM = 0.00086207
+soma.nai = 30
+soma.nao = 145
+soma.ki = 135
+soma.ko = 3.1
